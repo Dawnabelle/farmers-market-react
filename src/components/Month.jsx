@@ -3,8 +3,16 @@ import Produce from './produce';
 import PropTypes from 'prop-types';
 
 function Month(props){
+  var monthStyles = {
+    backgroundColor: '#f88379',
+    width: '500px',
+    padding: '20px 20px 20px 20px',
+    margin: 'auto',
+    marginTop: '20px'
+  }
+
   return (
-    <div>
+    <div style={monthStyles}>
       <h3>{props.month}</h3>
       <ul>
         {props.selection.map((produce, index) =>

@@ -4,8 +4,11 @@ import MarketSchedule from './MarketSchedule';
 import SeasonalProduce from './SeasonalProduce';
 
 function App(){
+  var pageStyle = {
+    backgroundColor: '#79f8c3'
+  }
   return (
-    <div>
+    <div style={pageStyle}>
       <Header/>
       <MarketSchedule/>
       <SeasonalProduce/>
