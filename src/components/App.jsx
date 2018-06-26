@@ -1,9 +1,12 @@
 import React from "react";
+import Header from './Header';
+import MarketSchedule from './MarketSchedule';
 
 function App(){
   return (
     <div>
-      <p>our shit will go here</p>
+      <Header/>
+      <MarketSchedule/>
     </div>
   );
 }
