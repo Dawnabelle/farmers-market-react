@@ -44,6 +44,7 @@ function MarketSchedule(){
   return (
     <div>
       <hr/>
+      <h2>Market Schedule:</h2>
       {masterSchedule.map((day, index) =>
         <Day weekday={day.day}
           location={day.location}
