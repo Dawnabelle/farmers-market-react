@@ -6,7 +6,7 @@ function Month(props){
   var monthStyles = {
     backgroundColor: '#f88379',
     width: '500px',
-    padding: '20px 20px 20px 20px',
+    padding: '20px',
     margin: 'auto',
     marginTop: '20px'
   }
